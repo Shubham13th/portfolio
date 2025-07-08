@@ -2,6 +2,7 @@ import { StarBackground } from "../components/StarBackground"
 import ThemeToggle from "../components/ThemeToggle"
 import { Navbar } from "../components/Navbar"
 import { HeroSection } from "../components/HeroSection"
+import { AboutSection } from "../components/AboutSection"
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       {/* main content */}
       <main>
         <HeroSection />
+        <AboutSection />
       </main>
       {/* footer  */}
     </div>
