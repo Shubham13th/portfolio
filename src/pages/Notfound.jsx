@@ -1,11 +1,3 @@
-
-
-const Notfound = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Notfound
+export const NotFound = () => {
+  return <div> NotFound</div>;
+};
