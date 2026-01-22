@@ -1,6 +1,6 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import mediFor7 from "../assets/mediFor7.png"
-import shubhVivah from "../assets/shubhVivah.png"
+import shubhVivah from "../assets/shubhvivah.png"
 
 const projects = [
     {
