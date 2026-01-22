@@ -1,28 +1,30 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import mediFor7 from "../assets/mediFor7.png"
+import shubhVivah from "../assets/shubhVivah.png"
 
 const projects = [
     {
         id: 1,
-        title: "",
-        description: "", // Fixed: changed 'Description' to 'description'
-        image: "/",
-        tags: ["", "", "", ""],
-        demoUrl: "#",
-        githubUrl: "#"
+        title: "MediFor7",
+        description: "A comprehensive medical resource platform.",
+        image: mediFor7,
+        tags: ["React", "Tailwind CSS"],
+        demoUrl: "https://medifor7.onrender.com/",
+        githubUrl: "https://github.com/Shubham13th/mediFor7"
     },
     {
         id: 2,
-        title: "",
-        description: "", // Fixed: changed 'Description' to 'description'
-        image: "/",
-        tags: ["", "", "", ""],
-        demoUrl: "#",
-        githubUrl: "#"
+        title: "Shubh Vivah",
+        description: "Online Matromonial platform", 
+        image: shubhVivah,
+        tags: ["React", "React-Dom", "Tailwind CSS"],
+        demoUrl: "https://illustrious-chaja-e0ac9d.netlify.app/",
+        githubUrl: "https://github.com/Shubham13th/Matrimonial-Website/tree/main/frontend"
     },
     {
         id: 3,
-        title: "",
-        description: "", // Fixed: changed 'Description' to 'description'
+        title: "SmartAttend",
+        description: "", 
         image: "/",
         tags: ["", "", "", ""],
         demoUrl: "#",
